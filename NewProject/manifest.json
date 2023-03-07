@@ -1,0 +1,23 @@
+ {
+    "manifest_version":3,
+    "name":"Form Filler",
+    "description":"This will fill the form fast for job Application",
+    "version":"1.0.0",
+    "action":{
+        "default_popup":"popup/popup.html"
+    },
+    "icons":{
+        "32":"image/doc.png"
+    },
+    "background":{
+        
+
+        "service_worker":"background.js",
+        "type":"module"
+    },
+    "permissions":[
+        "storage",
+        "alarms",
+        "notifications"
+    ]
+ }

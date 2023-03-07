@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    background: rgba(51, 68, 80, 0.934);
+}
+
+.wrapper{
+    width:300px;
+    text-align: center;
+}
+
+.btn{
+    width:100px;
+    outline:none;
+    border: none;
+    border-radius: 10px;
+    padding:5px;
+    background: rgb(106, 31, 129);
+    cursor: pointer;
+    font:400;
+    font-family:'Poppins';
+    font-weight: bold;
+    color:rgb(17, 17, 17);
+}
+.btn:hover{
+   
+    outline:none;
+    border: none;
+    border-radius: 20px;
+    padding:6px;
+    background: rgb(18, 173, 135);
+    cursor: pointer;
+    color:rgb(255, 251, 0);
+}
+
+.colorGrid {
+
+    display: inline-block;
+    width:10px;
+    height:10px;
+    border-radius: 2px;
+}
+
+.selectedColor{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+
+}
+
+ .colorValue {
+    margin-left:5px;
+    font-weight: bold;
+ }
